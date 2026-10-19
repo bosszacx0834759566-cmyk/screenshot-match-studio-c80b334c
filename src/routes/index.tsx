@@ -334,12 +334,12 @@ function Index() {
               <h2 className="display-lg"><Lines lines={["Natthakorn “Boss”", "Mueangsangsri"]} /></h2>
               <div className="reveal mt-8 flex flex-wrap gap-x-12 gap-y-5 border-t border-line-light pt-6">
                 <div>
-                  <p className="mono text-ink/40">Born · เกิด</p>
-                  <p className="mono mono-lg mt-2 text-ink/80">{FOUNDER_BIRTH_EN} · {FOUNDER_BIRTH_TH}</p>
+                  <p className="mono text-ink/40">Born</p>
+                  <p className="mono mono-lg mt-2 text-ink/80">{FOUNDER_BIRTH_EN}</p>
                 </div>
                 <div>
-                  <p className="mono text-ink/40">Age · อายุ</p>
-                  <p className="mono mono-lg mt-2 text-ink/80">{founderAge()} years · {founderAge()} ปี</p>
+                  <p className="mono text-ink/40">Age</p>
+                  <p className="mono mono-lg mt-2 text-ink/80">{founderAge()} years</p>
                 </div>
               </div>
               <p className="body-copy reveal mt-8 max-w-xl text-ink/60">Building adaptive and resilient space-to-ground communication systems for the most demanding environments.</p>
