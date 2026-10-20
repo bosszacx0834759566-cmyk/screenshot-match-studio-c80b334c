@@ -1,5 +1,7 @@
 # Roadmap
 
+- [ ] Give the founder portrait a gray monochrome backdrop so it fits the site's black-and-white tone, while the photo itself stays in natural color.
+
 - [ ] Publish the public site for Google discovery and verify all photos and the original clip on the live URL.
 
 - [x] Restore the original ISS clip and its natural colors. Served MP4 matches original bytes; appearance and playback checked with a browser-compatible test copy because sandbox Chromium lacks H.264 support.
