@@ -318,7 +318,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar { display: none; width: 0; heig
   background: linear-gradient(to bottom, var(--paper-2) 0%, var(--paper-2) 55%, transparent 92%);
   -webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent 100%); mask-image: linear-gradient(to bottom, #000 70%, transparent 100%); }
 .founder-portrait-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top center;
-  filter: grayscale(1) contrast(1.06); transition: filter .8s var(--ease-out);
+  filter: contrast(1.02) saturate(1.06); transition: transform .8s var(--ease-out);
   -webkit-mask-image: linear-gradient(to bottom, #000 72%, transparent 99%); mask-image: linear-gradient(to bottom, #000 72%, transparent 99%); }
-.founder-portrait-wrap:hover .founder-portrait-img { filter: grayscale(.12) contrast(1.02); }
+.founder-portrait-wrap:hover .founder-portrait-img { transform: scale(1.02); }
 @media (min-width: 1024px) { .founder-portrait { aspect-ratio: auto; height: 100%; min-height: 460px; } }
