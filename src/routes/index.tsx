@@ -53,6 +53,7 @@ export const Route = createFileRoute("/")({
             "https://instagram.com/godheimerhj",
             "https://x.com/godheimerhj",
             "https://linkedin.com/company/godheimer",
+            "https://tiktok.com/@ololink",
           ],
         }),
       },
