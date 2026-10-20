@@ -2,9 +2,9 @@ import { describe, it, expect } from "vitest";
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
-const PROJECT_ID = "ca0beb3a-4f7d-4b18-8f03-1eb3a857dd74";
+const PROJECT_ID = "7e11bd23-e868-4775-a7db-ffc510a4427e";
 const dir = join(__dirname, "../assets");
-const required = ["iss-video.mp4", "goddard.jpg", "oppenheimer.jpg"];
+const required = ["iss-video.mp4", "goddard.jpg", "oppenheimer.jpg", "boss.png"];
 
 describe("media assets", () => {
   for (const name of required) {
