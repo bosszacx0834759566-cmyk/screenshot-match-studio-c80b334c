@@ -1,6 +1,6 @@
 # Roadmap
 
-- [ ] Give the founder portrait a gray monochrome backdrop so it fits the site's black-and-white tone, while the photo itself stays in natural color.
+- [x] Give the founder portrait a gray monochrome backdrop so it fits the site's black-and-white tone, while the photo itself stays in natural color. Checked on desktop and mobile in the browser.
 
 - [ ] Publish the public site for Google discovery and verify all photos and the original clip on the live URL.
 
