@@ -314,9 +314,9 @@ html::-webkit-scrollbar, body::-webkit-scrollbar { display: none; width: 0; heig
 
 /* ===== Founder portrait (The Name / leadership section) ===== */
 .founder-portrait { position: relative; aspect-ratio: 4 / 5; }
-.founder-portrait::before { content: ""; position: absolute; inset: 6% 0 0; border-radius: 999px 999px 0 0;
-  background: linear-gradient(to bottom, oklch(0.76 0 0) 0%, oklch(0.62 0 0) 62%, oklch(0.54 0 0) 100%);
-  -webkit-mask-image: linear-gradient(to bottom, #000 66%, transparent 96%); mask-image: linear-gradient(to bottom, #000 66%, transparent 96%); }
+.founder-portrait::before { content: ""; position: absolute; inset: 6% 0 26%; border-radius: 999px 999px 0 0;
+  background: linear-gradient(to bottom, oklch(0.78 0 0) 0%, oklch(0.64 0 0) 60%, oklch(0.56 0 0) 100%);
+  -webkit-mask-image: linear-gradient(to bottom, #000 58%, transparent 100%); mask-image: linear-gradient(to bottom, #000 58%, transparent 100%); }
 .founder-portrait-img { position: absolute; inset: 0 12%; object-fit: contain; object-position: top center;
   filter: contrast(1.02) saturate(1.06); transition: transform .8s var(--ease-out);
   -webkit-mask-image: linear-gradient(to bottom, #000 84%, transparent 100%); mask-image: linear-gradient(to bottom, #000 84%, transparent 100%); }
